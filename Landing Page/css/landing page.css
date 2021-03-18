@@ -1,0 +1,318 @@
+/*******************NAV BAR********************/
+/*******************CLASS**********************/
+.name{
+   float: left;
+   font-family: 'Ballet';
+   color: #e79c2a;
+   padding: 2px;
+   margin-left: 30px;
+}
+/*******************ID*************************/
+#nav-bar{
+   display: block;
+   overflow: hidden;
+   background-color:black;
+   z-index: 1;
+   height: auto;
+   position: fixed;
+   width:100%;
+   top:0;
+}
+#nav-bar a{
+   color: #ffbe0f;
+   float: right;
+   margin: 0 20px 0 20px;
+   text-decoration: none;
+   height: 20px;
+   padding: 20px;
+   fixed: top;
+
+}
+#nav-bar a:hover{
+   background-color: #ffbe0f;
+   color: black;
+}
+#navbar-img{
+   height: 25px;
+}
+/*******************TAGS***********************/
+html{
+   scroll-behavior: smooth;
+}
+/*******************NAV BAR********************/
+/*******************HEADER*********************/
+/*******************CLASS**********************/
+
+.name2{
+  font-family: 'Ballet';
+  font-size: 75px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.prod{
+   width:25%;
+   margin: 10%;
+}
+
+/*******************ID*************************/
+#header-img{
+   height: 500px;
+   width: auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+#logo{
+   display: block;
+   width: 100%;
+   height: 100vh;
+   padding-top: 10%;
+   margin: auto;
+}
+#aboutUs{
+   width: 60%;
+   height: 150px;
+   margin: auto;
+   text-align: center;
+   font-size: 36px;
+}
+#products{
+   width: 80%;
+   margin: auto;
+}
+#submit{
+   width: 90%;
+}
+@media (max-size: 800px){
+    #logo{height: 200px;
+   width: auto;}
+    }
+/*******************TAGS***********************/
+body{
+   background-color:white;
+   font-family: 'PT Sans Caption';
+   width: 100%
+
+}
+
+/*******************HEADER********************/
+/*******************BODY**********************/
+/*******************CLASS**********************/
+.aboutUs2{
+   text-align: center;
+   width:50%;
+   margin-left:auto;
+   margin-right: auto;
+   margin-top:-80px;
+}
+.description{
+   margin: auto;
+   text-align: left;
+   width:60%;
+}
+.features{
+   width: 50%;
+   height: auto;
+   margin: auto;
+}
+.rose{
+   margin-right: 20px;
+   width: 50px;
+   height:auto;
+}
+.shipping{
+   margin-right: 20px;
+   width: 50px;
+   height:auto;
+}
+.satis{
+   margin-right: 20px;
+   width: 50px;
+   height:auto;
+}
+.hand{
+   margin-right: 20px;
+   width: 50px;
+   height:auto;
+}
+.title1{
+   margin-top: 20px;
+   text-align: center;
+   font-size: 36px;
+}
+.title2{
+   text-align: center;
+   margin-top: 80px;
+}
+
+.proTitle{
+   text-align: center;
+   background:#ffbe0f;
+   margin:0;
+   padding: 5px 0 5px 0;
+}
+.prodDesc{
+   margin-top: 25px;
+   padding:10px;
+   height:100px;
+
+}
+.textarea{
+   width: 90%;
+   min-width:90%;
+   max-width: 90%;
+   border: 1px solid black;
+   border-radius: 5px;
+}
+.footer{
+   color: white;
+   text-align: center;
+}
+.teddy{
+   height: 150px;
+   width: auto;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   margin-top: 20px;
+}
+.eternal{
+   height: 150px;
+   width: auto;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   margin-top: 20px;
+}
+.bouquet{
+   height: 150px;
+   width: auto;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   margin-top: 20px;
+}
+.custom{
+   height: 150px;
+   width: auto;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   margin-top: 20px;
+}
+#video{
+  margin-left: 30%;
+  margin-top: 50px;
+}
+/*******************ID*************************/
+#aboutUs{
+   margin-left:auto;
+   margin-right: auto;
+   margin-bottom: -50px;
+   padding-top:70px;
+   text-align:center;
+}
+#email{
+   width: 90%;
+   border: 1px solid black;
+   border-radius: 5px;
+}
+#features{
+   padding-top: 50px;
+   display: block;
+   margin: auto;
+   height: 100vh;
+}
+#productContainer{
+   margin-top: 50px;
+   display:flex;
+   column-gap: 10px;
+   padding: 5px;
+}
+#ourproducts{
+   padding-top:70px;
+   text-align:center;
+   margin: auto;
+   font-size: 36px;
+}
+#products{
+   margin-top: 50px;
+   margin-left: auto;
+   margin-right: auto;
+   height: 100vh;
+}
+#product1{
+   width: 25%;
+   height: auto;
+   text-align: center;
+   border: 2px solid #ffbe0f;
+}
+#product2{
+   width: 25%;
+   height: auto;
+   text-align: center;
+   border: 2px solid #ffbe0f;
+}
+#product3{
+   width: 25%;
+   height: auto;
+   text-align: center;
+   border: 2px solid #ffbe0f;
+}
+#product4{
+   width: 25%;
+   height: auto;
+   text-align: center;
+   border: 2px solid #ffbe0f;
+}
+#submit{
+   background-color: black;
+   color:#ffbe0f;
+   border: 1px solid white;
+   border-radius: 5px;
+   height:40px;
+   margin-top: 12px;
+   font-size: 18px;
+}
+
+#submit:hover{
+   background-color:#ffbe0f;
+   color: black;
+}
+#buyNow{
+   background-color: black;
+   color:#ffbe0f;
+   border: 1px solid white;
+   border-radius: 5px;
+   width: 90%;
+   height:40px;
+   margin-bottom: 60px;
+}
+#buyNow:hover{
+   background-color:#ffbe0f;
+   color: black;
+}
+
+/*******************TAGS***********************/
+ul{
+   text-align: left;
+   height: 100px;
+}
+form{
+   margin: auto;
+   align-items: center;
+}
+table{
+   margin: 30px;
+}
+footer{
+   margin-top: 150px;
+   height: 100px;
+   background-color: black;
+   padding-top: 25px;
+}
+h3{
+  margin-top: 20px;
+}
+/*******************BODY**********************/
